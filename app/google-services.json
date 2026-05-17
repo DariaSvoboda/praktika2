@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "619723299481",
+    "project_id": "prakt2-5ead2",
+    "storage_bucket": "prakt2-5ead2.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:619723299481:android:332bd6bf023e11e56cf608",
+        "android_client_info": {
+          "package_name": "com.example.praktika2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7_t4yHD2NngZThA1KgSGQiPQKQgTjSsI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

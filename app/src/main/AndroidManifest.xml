@@ -4,14 +4,15 @@
 
     <application
         android:allowBackup="true"
-        android:dataExtractionRules="@xml/data_extraction_rules"
-        android:fullBackupContent="@xml/backup_rules"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Praktika2"
         tools:targetApi="31">
+        <activity
+            android:name=".EditTestQuestionsActivity"
+            android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
@@ -21,6 +22,64 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".TeacherLoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TeacherDashboardActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CreateClassActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MyClassesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".JoinClassActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ClassDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CreateTestActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AddMaterialActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ViewMaterialActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EditMaterialActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ViewTestActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EditTestActivity"
+            android:exported="false" />
+        <activity
+            android:name=".StudentLoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".StudentDashboardActivity"
+            android:exported="false" />
+        <activity
+            android:name=".StudentTestsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TakeTestActivity"
+            android:exported="false" />
+        <activity
+            android:name=".StudentResultsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TeacherResultsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".StudentMaterialsActivity"
+            android:exported="false" />
+
     </application>
 
 </manifest>

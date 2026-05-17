@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F5F5F5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#1A237E"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/textViewTestTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Название теста"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/textViewQuestionCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Вопросов: 0"
+            android:textSize="14sp"
+            android:textColor="#B0BEC5"
+            android:layout_marginTop="4dp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Вопросы:"
+        android:textSize="16sp"
+        android:textColor="#1A237E"
+        android:padding="16dp"
+        android:paddingBottom="8dp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewQuestions"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:paddingHorizontal="16dp" />
+
+    <LinearLayout
+        android:id="@+id/layoutActions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        android:visibility="gone">
+
+        <Button
+            android:id="@+id/buttonEditTest"
+            android:layout_width="0dp"
+            android:layout_height="44dp"
+            android:layout_weight="1"
+            android:text="Редактировать"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#1A237E"
+            android:layout_marginEnd="8dp" />
+
+        <Button
+            android:id="@+id/buttonDeleteTest"
+            android:layout_width="0dp"
+            android:layout_height="44dp"
+            android:layout_weight="1"
+            android:text="Удалить"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#F44336" />
+
+    </LinearLayout>
+
+</LinearLayout>

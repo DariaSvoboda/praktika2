@@ -1,10 +1,11 @@
 plugins {
     alias(libs.plugins.android.application)
+    id("com.google.gms.google-services")
 }
 
 android {
     namespace = "com.example.praktika2"
-    compileSdk = 35
+    compileSdk = 36
 
     defaultConfig {
         applicationId = "com.example.praktika2"
@@ -40,4 +41,12 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
+
+    implementation(platform("com.google.firebase:firebase-bom:34.13.0"))
+
+    implementation("androidx.viewpager2:viewpager2:1.0.0")
+    implementation("com.google.firebase:firebase-auth")
+
+
+    implementation("com.google.firebase:firebase-firestore")
 }
