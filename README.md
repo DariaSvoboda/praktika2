@@ -52,8 +52,8 @@
 
 1. Клонировать репозиторий
 ```
-git clone https://github.com/yourusername/educlass.git
-cd educlass
+git clone https://github.com/DariaSvoboda/praktika2.git
+cd praktika2
 ```
 
 2. Настроить Firebase
